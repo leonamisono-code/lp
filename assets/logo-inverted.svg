@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 180" width="360" height="180">
+  <!-- Black background -->
+  <rect width="360" height="180" fill="#000"/>
+
+  <!-- Outer thin rectangle -->
+  <rect x="12" y="12" width="336" height="156" fill="none" stroke="white" stroke-width="1"/>
+
+  <!-- Inner thin rectangle -->
+  <rect x="22" y="22" width="316" height="136" fill="none" stroke="white" stroke-width="1"/>
+
+  <!-- Corner ornaments on inner rectangle (small squares) -->
+  <rect x="15" y="15" width="14" height="14" fill="none" stroke="white" stroke-width="1"/>
+  <rect x="331" y="15" width="14" height="14" fill="none" stroke="white" stroke-width="1"/>
+  <rect x="15" y="151" width="14" height="14" fill="none" stroke="white" stroke-width="1"/>
+  <rect x="331" y="151" width="14" height="14" fill="none" stroke="white" stroke-width="1"/>
+
+  <!-- LETICIA CLINIC -->
+  <text x="180" y="96" font-family="'Didot', 'Bodoni MT', 'Times New Roman', serif" font-size="30" font-weight="400" fill="white" text-anchor="middle" letter-spacing="5">LETICIA CLINIC</text>
+
+  <!-- GINZA -->
+  <text x="180" y="122" font-family="'Didot', 'Bodoni MT', 'Times New Roman', serif" font-size="13" fill="white" text-anchor="middle" letter-spacing="6">GINZA</text>
+</svg>
