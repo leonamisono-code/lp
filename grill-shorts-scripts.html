@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>Grill Shorts ／ 台本集 Vol.1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#15171c;--ink-2:#353a42;--ink-3:#616770;--ink-4:#9aa0a8;--rule:#dcdee2;--rule-soft:#ecedef;--panel:#f5f4f0;--accent:#1b2a4a;--bg:#f7f6f2;--paper:#ffffff;--ai:#e8f4fd;--c1:#fdfaf4;--c2:#f4fdf8;--c3:#fdf4f4; }
+  *{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);-webkit-font-smoothing:antialiased}
+  body{font-family:"Noto Sans JP",sans-serif;font-size:15px;line-height:1.75;padding:56px 24px 120px}
+  .doc{max-width:900px;margin:0 auto;background:var(--paper);padding:72px 80px 96px;box-shadow:0 1px 2px rgba(0,0,0,.04),0 20px 60px rgba(0,0,0,.08);border-radius:2px}
+  .meta{display:grid;grid-template-columns:1fr auto;align-items:flex-end;gap:24px;padding-bottom:22px;border-bottom:2px solid var(--ink);margin-bottom:48px}
+  .meta .brand{font-family:"IBM Plex Mono",monospace;font-size:12px;font-weight:500;letter-spacing:.16em;color:var(--ink-3);text-transform:uppercase;margin-bottom:10px}
+  .meta h1{font-size:32px;font-weight:700;line-height:1.2;letter-spacing:-.02em;margin:0}
+  .meta .sub{font-size:15px;color:var(--ink-2);margin-top:8px}
+  .meta-grid{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--ink-3);letter-spacing:.06em;line-height:1.9;text-align:right}
+  .meta-grid b{color:var(--ink);font-weight:500}
+  .script{border:1px solid var(--rule);border-radius:2px;margin-bottom:48px;overflow:hidden}
+  .script-header{padding:20px 28px;border-bottom:1px solid var(--rule)}
+  .script-no{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-4);letter-spacing:.1em;margin-bottom:6px}
+  .script-title{font-size:19px;font-weight:700;color:var(--ink);margin:0 0 10px}
+  .script-meta{display:flex;gap:10px;flex-wrap:wrap}
+  .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:4px 10px;border-radius:2px}
+  .badge-ai{background:var(--ai);color:#1a6091}
+  .badge-t{background:var(--panel);color:var(--ink-3)}
+  .scenes{}
+  .scene{display:grid;grid-template-columns:110px 1fr;border-bottom:1px solid var(--rule-soft)}
+  .scene:last-child{border-bottom:none}
+  .scene-time{padding:18px 20px;background:var(--panel)}
+  .scene-time .t{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;color:var(--accent)}
+  .scene-time .l{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--ink-4);letter-spacing:.08em;text-transform:uppercase;margin-top:4px}
+  .scene-body{padding:18px 24px}
+  .scene-body .role{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3);margin-bottom:6px}
+  .scene-body .line{font-size:14px;color:var(--ink);line-height:1.8;font-weight:500}
+  .scene-body .dir{font-size:13px;color:var(--ink-3);margin-top:8px;font-style:italic;border-left:2px solid var(--rule);padding-left:12px}
+  .note{padding:14px 20px;background:var(--panel);border-left:3px solid var(--accent);font-size:13px;color:var(--ink-2)}
+  .note .lbl{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);display:block;margin-bottom:4px}
+  .s1 .script-header{background:var(--c1);border-left:4px solid #c9a84c}
+  .s2 .script-header{background:var(--c2);border-left:4px solid #50b3a0}
+  .s3 .script-header{background:var(--c3);border-left:4px solid #c97a7a}
+  .ai .script-header{background:var(--ai);border-left:4px solid #1a6091}
+  .foot{margin-top:80px;padding-top:20px;border-top:1px solid var(--rule);font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-3);display:flex;justify-content:space-between}
+  @media(max-width:720px){body{padding:16px 0 80px}.doc{padding:32px 20px 64px;border-radius:0}.scene{grid-template-columns:80px 1fr}.meta{grid-template-columns:1fr}.meta-grid{text-align:left}}
+</style>
+</head>
+<body><article class="doc">
+
+<header class="meta">
+  <div>
+    <div class="brand">Grill Shorts ／ Script</div>
+    <h1>台本集 Vol.1</h1>
+    <div class="sub">全16本 ／ 岩館さん確認用ドラフト</div>
+  </div>
+  <div class="meta-grid">DOC &nbsp;· <b>GS-SCR-2026-01</b><br/>DATE &nbsp;· <b>2026.04.24</b><br/>STATUS &nbsp;· <b style="color:#c9a84c">DRAFT</b></div>
+</header>
+
+<!-- 01-01 -->
+<div class="script s1">
+  <div class="script-header">
+    <div class="script-no">01-01 ／ 社長突撃系</div>
+    <div class="script-title">岩館さんが毎朝チェックする3つの数字</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「岩館さん、朝一番に何を見てるんですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:05</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「毎朝必ず見る数字が3つあります。1つ目は予約数。前週比でどう動いてるか。ここが落ちてたら、何かアクションが必要なサインです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:20</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「2つ目はキャンセル率。10%を超えてきたら、患者さんとのコミュニケーションに何か問題が起きてる可能性があります。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:33</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「3つ目は新患の比率。既存患者だけで埋まってる月は、危ない。見た目の売上は良くても、パイプが詰まってる状態です。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「この3つを毎朝1分で確認するだけで、経営の異変に早く気づけます。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>スマホやPCの画面を軽く映しながら話してもらうと「実際にやってる感」が出る。数字は岩館さんの実際の感覚値に合わせて変更してOK。</div>
+</div>
+
+<!-- 01-02 -->
+<div class="script s1">
+  <div class="script-header">
+    <div class="script-no">01-02 ／ 社長突撃系</div>
+    <div class="script-title">クリニックコンサルを断った瞬間の話</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「岩館さん、今まで断った案件って、どんな時ですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「正直に言うと、院長の『数字への向き合い方』で決めてます。最初の面談で『売上はざっくりこのくらいです』って答える院長は、一回立ち止まらせます。」</div><div class="dir">※ここは岩館さんの言葉で具体化してもらう</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「もう一つは、『変わりたいけど何もしたくない』というオーラが出てる院長。コンサルは魔法じゃないので、動く気のない人に何を提案しても結果は出ません。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:38</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「断ることもプロの仕事だと思ってます。うまくいかない確率が高い案件を引き受けるのは、お互いにとって良くない。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>岩館さんが実際に断った事例のエピソードを1つ具体的に話してもらえると一気にリアリティが増す。</div>
+</div>
+
+<!-- 01-03 -->
+<div class="script s1">
+  <div class="script-header">
+    <div class="script-no">01-03 ／ 社長突撃系</div>
+    <div class="script-title">岩館さんが院長に最初に聞く質問</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「初回面談で必ず聞くことって何ですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「最初に聞くのは集患の話じゃないんです。『今の自分のクリニックの強みって何ですか？』これを聞きます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:18</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「ここでスラスラ答えられる院長と、黙り込む院長で、経営の解像度がすぐわかります。強みが言えない院長は、何を売ればいいかわかってない状態なので。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:34</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「次に聞くのは『今月の新患数』。これも感覚じゃなくて数字で即答できるかどうか。この2つを聞くだけで、その後の提案の方向性が全部決まります。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:48</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「聞かれて答えられなかった院長、ぜひ今日中に答えを出してみてください。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>「強みをスラスラ答えられるか」の部分は、岩館さんが実際に面談で感じたリアルなエピソードを交えてもらうとより刺さる。</div>
+</div>
+
+<!-- 01-04 AI -->
+<div class="script ai">
+  <div class="script-header">
+    <div class="script-no">01-04 ／ 社長突撃系</div>
+    <div class="script-title">AIを使い始めて、業務で一番変わったこと</div>
+    <div class="script-meta"><span class="badge badge-ai">✦ AI</span><span class="badge badge-t">Target: A / B / D</span><span class="badge badge-t">尺: 45〜60秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「岩館さん、最近AIってどう使ってますか？正直なところ聞かせてください。」</div><div class="dir">※デスクや移動中など自然な場面で撮れると○</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:07</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「一番変わったのは、クライアントへの提案資料の準備時間です。以前は3〜4時間かかってたものが、今は1時間以内で出せるようになった。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「クリニックの数字をざっと入力して、『ここから経営課題を3つ出して』って聞くだけ。あとはその叩き台を自分で磨く。この流れが完全に変わりました。」</div><div class="dir">※実際に使っているツール名（Claude / ChatGPT等）を出せると具体性が増す</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:38</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「使ってない院長は今すぐ使った方がいい。差がつき始めてるのは、もう今ですよ。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>PC画面でAIツールを実際に操作しているシーンが1カットでも撮れると映える。「使う前・使った後」の時間対比を数字で出してもらうと保存率UP。</div>
+</div>
+
+<!-- 01-05 -->
+<div class="script s1">
+  <div class="script-header">
+    <div class="script-no">01-05 ／ 社長突撃系</div>
+    <div class="script-title">月商1000万のクリニックと3000万の違い</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「規模が倍以上になる院長って、何が違うんですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「施術の腕じゃないんですよね、正直。1000万と3000万の院長の差は、ほぼ『情報収集の量と速さ』です。伸びてる院長は常に外を見てる。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「もう一つは、人に任せる判断が早い。1000万の院長は全部自分でやろうとする。3000万の院長は『自分じゃなくていいこと』をすぐ人に振れます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:38</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「技術は同じでも、経営の動き方で結果が変わる。院長業の本質はそこだと思ってます。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>岩館さんが実際に見てきた具体的なエピソードを1つ入れると一気に説得力が増す。「3000万の院長がやってたこと」の具体例まで話せると完璧。</div>
+</div>
+
+<!-- 02-01 AI -->
+<div class="script ai">
+  <div class="script-header">
+    <div class="script-no">02-01 ／ 時事ニュース解説</div>
+    <div class="script-title">ChatGPT・Claude、クリニック経営にどう使う？</div>
+    <div class="script-meta"><span class="badge badge-ai">✦ AI</span><span class="badge badge-t">Target: A / B / D</span><span class="badge badge-t">尺: 50〜60秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「院長先生に聞きます。AIって使ってますか？……差はもうついてます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:09</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「今すぐ使える場面、3つあります。1つ目、SNS投稿の文章。ネタを箇条書きで入れるだけで投稿文が出てくる。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「2つ目、スタッフへのマニュアル作成。口頭で説明してたことをAIに整理させると、30分かかってたマニュアルが5分で完成する。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:34</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「3つ目、患者さんへの説明文の雛形。これを全部自分でゼロから書いてたら時間がいくらあっても足りない。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「今すぐやること1つだけ言います。ClaudeかChatGPTを開いて、『自院のSNS投稿を1本作って』って打つだけ。5分後に答えが出ます。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>「①②③」のテロップを順番に出す構成が視聴維持率を上げる。最後の「今すぐやること」はゆっくり話してもらうと締まる。</div>
+</div>
+
+<!-- 02-02 AI -->
+<div class="script ai">
+  <div class="script-header">
+    <div class="script-no">02-02 ／ 時事ニュース解説</div>
+    <div class="script-title">AI問診が普及したらクリニック経営はどう変わる</div>
+    <div class="script-meta"><span class="badge badge-ai">✦ AI</span><span class="badge badge-t">Target: A / B</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「AI問診を導入したクリニック、もう増えてます。導入した院長と、まだ様子見の院長で、1年後に何が変わるか話します。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:12</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「AI問診が普及すると、受付スタッフの業務量が劇的に減ります。患者さんの基本情報収集・症状の整理をAIがやってくれる。その分、スタッフは接客・フォローに集中できる。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:28</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「経営的には、1人あたりの診療時間が短縮できて、同じ時間でより多くの患者さんを診られるようになる。先行者が今、その差を作ってます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:42</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「導入コストより、導入しない機会損失の方が大きくなってきてます。今が動き時だと思います。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>具体的なAI問診ツール名を出せるとリアリティが増す。「導入コスト vs 削減できる工数」を数字で示せると保存率UP。</div>
+</div>
+
+<!-- 02-03 -->
+<div class="script s2">
+  <div class="script-header">
+    <div class="script-no">02-03 ／ 時事ニュース解説</div>
+    <div class="script-title">診療報酬改定、今回の本当のインパクト</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「診療報酬が改定されましたが、院長先生、ちゃんと自院への影響を数字で把握できてますか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:10</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「多くの院長が見落としてるのは、点数の変化そのものより、それが月の売上にどう影響するかの計算です。ざっくりでも月次でシミュレーションしておかないと、気づいたら赤字になってます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:28</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「改定後にやることは2つ。自院の主要診療の点数を確認すること。そして診療単価が落ちた分、件数で補う必要があるかどうかを判断すること。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:43</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「改定は毎回あります。そのたびに素早く動ける院長と、様子を見てしまう院長で、年間の差が積み上がっていきます。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>タイムリー性が命。改定直後に撮影・投稿できると再生数が伸びやすい。岩館さんが実際に把握している数字感覚で話してもらうとリアリティが出る。</div>
+</div>
+
+<!-- 02-04 -->
+<div class="script s2">
+  <div class="script-header">
+    <div class="script-no">02-04 ／ 時事ニュース解説</div>
+    <div class="script-title">SNS炎上したクリニック、何がまずかったのか</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「最近またクリニックの炎上ありましたよね。あれ、何がまずかったんですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:08</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「炎上するパターンってだいたい3つあります。1つ目は、患者さんの体験を『同意なしに』発信してしまうケース。善意でやってるのが一番厄介です。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:23</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「2つ目は、批判コメントへの感情的な返信。クリニックのSNSは広報ですから、個人の感情で返すと一瞬で炎上します。返信ルールは必ず事前に決めておくべきです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:37</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「炎上のほとんどは、ルールがないまま運用してることで起きます。今日、自院のSNS運用ルールを1枚紙で作ってみてください。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>特定の医院・事例を識別できない形で話してもらう。「NG行動TOP3」形式にすると切り抜きにもなりやすい。</div>
+</div>
+
+<!-- 02-05 -->
+<div class="script s2">
+  <div class="script-header">
+    <div class="script-no">02-05 ／ 時事ニュース解説</div>
+    <div class="script-title">美容クリニック増加で競争激化、生き残る条件</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「クリニック数が増え続けてますけど、岩館さんはどう見てますか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:07</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「価格競争に入ったクリニックは、ほぼ負けます。なぜかというと、価格を下げても来てくれる患者さんは、もっと安いところが出たらすぐ移るから。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「生き残るクリニックの共通点は、『指名で来てくれる患者さんがいるかどうか』です。『この先生に診てもらいたい』という理由がある院長は、競合が増えても揺るがない。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:38</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「今、自分のクリニックに指名で来てくれる患者さんが何%いるか。これを把握してない院長は、今すぐ確認してください。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>「価格競争に入った瞬間に負け」という岩館さんの持論は強いメッセージになる。データや市場感覚を岩館さんの言葉で補足してもらうと説得力が増す。</div>
+</div>
+
+<!-- 03-01 -->
+<div class="script s3">
+  <div class="script-header">
+    <div class="script-no">03-01 ／ 経営あるある</div>
+    <div class="script-title">伸びないクリニックの院長が言う3フレーズ</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「これ言ってる院長、やばいな…って思うフレーズってありますか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「あります、3つあります。まず1つ目。『うちはいい医療をしてれば、自然と患者さんは来る』。……来ないんですよ、今の時代は。」</div><div class="dir">※少し笑いを交えてもOK</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:20</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「2つ目。『SNSは若い子がやること。うちのターゲットには関係ない』。……40〜50代の患者さん、めちゃくちゃインスタ見てます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:33</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「3つ目が一番やばい。『うちは口コミだけで来てるから大丈夫』。口コミは既存患者が前提なので、新規が止まってる時点でジリ貧なんです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「1つでも心当たりあった院長、今日、数字を見直してみてください。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>3フレーズを言うたびにテロップを重ねる構成が映える。「呆れ気味の優しさ」のトーンで話してもらうと共感を得やすい。</div>
+</div>
+
+<!-- 03-02 -->
+<div class="script s3">
+  <div class="script-header">
+    <div class="script-no">03-02 ／ 経営あるある</div>
+    <div class="script-title">Google口コミ1件に3時間かけた院長の話</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「口コミ対応、やりすぎてる院長っていますよね？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「います。3時間かけて口コミ1件に返信書いてる院長、実際に見たことあります。その時間で何ができるかって話で。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:18</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「口コミへの返信は大事ですが、かけるべき時間は1件あたり5〜10分です。それ以上かけてる院長は、返信の目的が『情報提供』じゃなくて『感情の処理』になってます。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:34</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「時間対効果が最悪な行動TOP3に、低評価の口コミを深夜に読み返すことも入ります。気持ちはわかりますけど、それは院長業じゃないです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「返信テンプレを3種類作っておいて、あとは当てはめるだけにしてください。それだけで月に何時間か返ってきます。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>岩館さんが実際に見た「3時間かけた院長」のエピソードを少し膨らませて話してもらうとリアリティが増す。</div>
+</div>
+
+<!-- 03-03 -->
+<div class="script s3">
+  <div class="script-header">
+    <div class="script-no">03-03 ／ 経営あるある</div>
+    <div class="script-title">「集患に困ってる」と言いながら広告費ゼロの院長</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「集患の悩み相談で、一番多いパターンって何ですか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:06</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「一番多いのは、『集患が課題です』と言いながら、広告に一円も使ってない院長です。これ、矛盾してるんですよね。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:18</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「広告費を怖がる理由は2つ。費用対効果がわからないことと、失敗した時の損失が怖いこと。でも、やらない損失の方が確実に大きいんです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:33</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「月30万の広告費で新患が5人増えたら、1人6万円の獲得コスト。美容クリニックなら余裕で回収できます。まずこの計算を院長自身がやれるかどうかです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「集患に悩んでるなら、まず小さい額でいいので広告を試してみてください。データなしの議論は意味がないので。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>「広告費0円 vs 月30万円の院長、1年後の差」という対比の数字は岩館さんの実感値に合わせて変えてOK。</div>
+</div>
+
+<!-- 03-04 -->
+<div class="script s3">
+  <div class="script-header">
+    <div class="script-no">03-04 ／ 経営あるある</div>
+    <div class="script-title">スタッフが突然辞める前に必ず起きる3つのこと</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B / C</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「スタッフが突然辞めると言いますけど、実はちゃんとサインが出てます。気づいてないだけで。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:08</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「1つ目、シフトの希望が急に減る。『どちらでも大丈夫です』が増えてきたら、転職活動を始めてる可能性があります。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:20</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「2つ目、ランチを一人で食べ始める。それまで誰かと行ってたのに急に一人になる。心理的にすでに離れてる証拠です。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:33</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「3つ目、急に仕事が丁寧になる。引き継ぎの準備に入ってるんです。これが出たら、2週間以内に話が来ると思っていい。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:46</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「早めに気づいて話を聞くことが、引き留めより大事です。サインを見逃さないでください。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>保存・共有されやすいテーマ。「3つのサイン」をリスト形式のテロップで出すと視聴完了率が上がる。</div>
+</div>
+
+<!-- 03-05 -->
+<div class="script s3">
+  <div class="script-header">
+    <div class="script-no">03-05 ／ 経営あるある</div>
+    <div class="script-title">業者のDMで良さそうに見えるやつの見分け方</div>
+    <div class="script-meta"><span class="badge badge-t">Target: A / B</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">スタッフ → 岩館さん</div><div class="line">「院長宛てのDMって毎日来ますよね。どう見分けてますか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:07</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「まず見るのは、実績の書き方です。『〇〇クリニック様に導入いただきました』だけで数字がないやつは、ほぼアウト。数字が出せない実績は実績じゃないです。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:22</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「次に、成功事例しか書いてないもの。どんなサービスでも失敗した事例はあるはずで、それを一切書いてない業者は、都合の悪い情報を隠してる可能性があります。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:37</div><div class="l">本題③</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「一番わかりやすいのは、返信したら即電話してくること。提案の中身より『まず会う』ことが目的になってる業者は、院長の時間を大切にしてません。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:47</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「興味があるDMは、まず『過去の失敗事例を教えてください』と返してみてください。その返し方で信頼できるかわかります。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>岩館さんが実際に断った業者の事例（特定されない形で）を話してもらうとリアル感UP。</div>
+</div>
+
+<!-- 03-06 AI -->
+<div class="script ai">
+  <div class="script-header">
+    <div class="script-no">03-06 ／ 経営あるある</div>
+    <div class="script-title">AIに仕事を奪われる医師と、使いこなす医師の差</div>
+    <div class="script-meta"><span class="badge badge-ai">✦ AI</span><span class="badge badge-t">Target: A / B / C / D</span><span class="badge badge-t">尺: 45〜55秒</span></div>
+  </div>
+  <div class="scenes">
+    <div class="scene"><div class="scene-time"><div class="t">00:00</div><div class="l">Hook</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「AIに仕事を奪われる医師と、逆にAIで仕事が3倍になる医師。この差、何だと思いますか？」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:09</div><div class="l">本題①</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「奪われる側の特徴は、『AIがやることは自分がやらなくていい』と思ってること。これ逆なんです。AIを使いこなすには、AIに何をさせるか指示する力が要ります。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:24</div><div class="l">本題②</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「使いこなしてる医師は、AIに情報を正確に渡して、アウトプットを自分で判断・編集できます。この『人間の判断力』の部分は、AIには絶対に代替できない。」</div></div></div>
+    <div class="scene"><div class="scene-time"><div class="t">00:38</div><div class="l">結び</div></div><div class="scene-body"><div class="role">岩館さん</div><div class="line">「AIを恐れるんじゃなくて、AIを一番上手く使う人間になる。それが今の医師・経営者に求められてることだと思います。」</div></div></div>
+  </div>
+  <div class="note"><span class="lbl">撮影メモ</span>D層（一般視聴者）にも届くテーマで拡散に強い。「奪われる vs 使いこなす」の対比テロップが映える。岩館さんが実際に感じてるAIへの本音を引き出すと深みが出る。</div>
+</div>
+
+<footer class="foot">
+  <div>GS-SCR-2026-01 ／ DRAFT v1.0</div>
+  <div>CONFIDENTIAL ／ INTERNAL USE ONLY</div>
+</footer>
+
+</article></body></html>
